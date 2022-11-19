@@ -1,0 +1,66 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-color: rgba(154, 156, 214, 0.9);
+}
+h1 { 
+    font-weight: bold; 
+    font-size: 6.5vmin;
+    color: azure;
+}
+#content { 
+ background: rgb(2,0,36);
+ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(56,9,121,1) 42%, rgba(38,8,138,1) 76%, rgba(50,89,150,1) 100%);
+ width: 70vmin; 
+ margin: 0 auto; 
+ margin-top: 6.5vmin; 
+ border: 1.3vmin solid purple;
+ text-align: center; 
+ font-family: 'Helvetica Neue', arial; 
+ font-weight: 100;
+}
+div.ball {
+  display: flex;
+  background-image: url(magic_ball.png);
+  background-position: center;
+  border-radius: 50%;
+  width: 45vmin;
+  height: 45vmin;
+  margin: 0 auto;
+  margin-bottom: 4vmin;
+  margin-top: 4vmin;
+}
+div.answer {
+    display: flex;
+    background-color: none;
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    margin: 25% auto;
+    text-align: center;
+  }
+p#answer {
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 0 black, 0 1px black, 1px 0 black, 0 1px black;
+  font-size: 7.5vmin;
+  font-weight: bold;
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+#question {
+  margin: 2vmin;
+  padding: 1.2vmin;
+  width: 50vmin;
+  font-size: 2.2vmin;
+  text-align: center;
+  border: 2px solid slategray;
+  border-radius: 2.3vmin;
+  background-color: rgba(205, 169, 252, 0.949);
+}
+#info {
+  font-size: 3vmin;
+  color: aliceblue;
+}
